@@ -15,23 +15,23 @@ import time, random, multiprocessing, sys, json, codecs, threading, glob, re, st
 #line.log("Auth Token : " + str(line.authToken))
 #line.log("Timeline Token : " + str(line.tl.channelAccessToken))
 
-line = LINE("Token disini")
+line = LINE("Es7Kcbon1wN4H9HUf1a8.NyA+PG8TJV88Pn6FcTZmsa.13V7p8yrCFSBTKx3pa3DVdVZ+B9dLdQ5znx5DBIiKTk=")
 line.log("Auth Token : " + str(line.authToken))
 line.log("Timeline Token : " + str(line.tl.channelAccessToken))
 
-ki = LINE("Token disini")
+ki = LINE("Es0NFfTnzsa9gGCabOR0.iBuGmRcpaRydqClemgvK8a.sps75rq2kcD2eI3p2U5HS417y3AU24bkWO9RBOc4nTo=")
 ki.log("Auth Token : " + str(ki.authToken))
 ki.log("Timeline Token : " + str(ki.tl.channelAccessToken))
 
-kk = LINE("Token disini")
+kk = LINE("Es9xOLkeWL6amkYQlZk6.za+e5svtVOOkvtLheQuILG.FWOHDVQTC9nPgjOu7a0DzefplSn61djXIA0+fOi1S7g=")
 kk.log("Auth Token : " + str(kk.authToken))
 kk.log("Timeline Token : " + str(kk.tl.channelAccessToken))
 
-kc = LINE("Token disini")
+kc = LINE("EsKnLowGZXgJaVySgWA5.MRaGSrBZwVVBm5JYV/jhXq.RMKgAZC1ajV4rDVRjy26Fbo/kQJjMzKJo+aDHjVs+u0=")
 kc.log("Auth Token : " + str(kc.authToken))
 kc.log("Timeline Token : " + str(kc.tl.channelAccessToken))
 
-ks = LINE("Token disini")
+ks = LINE("EsxiAFQTs1I2RaPnbfpa.IYbKi80JSiOSiZ8cwc/CIG.RS3cxplI+joINNBywIy08Zh4ridaGqC7+OlNli6c+kQ=")
 ks.log("Auth Token : " + str(ks.authToken))
 ks.log("Timeline Token : " + str(ks.tl.channelAccessToken))
 
@@ -44,7 +44,7 @@ Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 Dmid = ks.getProfile().mid
 RABots = [mid,Amid,Bmid,Cmid,Dmid]
-RASelf = ["Mid Kamu"]
+RASelf = ["u67acbba40f5d7983bd60c200e92456e9"]
 RAFamily = RASelf + RABots
 Setbot = codecs.open("setting.json","r","utf-8")
 Setmain = json.load(Setbot)
@@ -166,7 +166,7 @@ def bot(op):
             #---------------------- Start Command ------------------------#
                         
                         if text.lower() == "menu":
-                            md = "🔰|RA|Family github version\n\n"
+                            md = "🔰 PHANTOM GHOST\n\n"
                             md += ".cek「@」\n"
                             md += ".gid\n"
                             md += ".yid\n"
@@ -182,10 +182,10 @@ def bot(op):
                             md += ".bye\n"
                             md += ".kick「@」\n"
                             ki.sendText(msg.to, md)
-                            
+                            cl.sendContact(msg.to,"u67acbba40f5d7983bd60c200e92456e9")
                         elif text.lower() == ".pengaturan":
                             if msg._from in RASelf:
-                                md = "🔰|RA|Family github version\n\n"
+                                md = "🔰|PHANTOM GHOST\n\n"
                                 if Setmain["RAautoscan"] == True: md+="✅ Cekmid\n"
                                 else: md+="❎ Cekmid\n"
                                 if Setmain["RAautoread"] == True: md+="✅ Autoread\n"
@@ -255,27 +255,28 @@ def bot(op):
                             elapsed_time = time.time() - start
                             cl.sendText(msg.to, "%s " % (elapsed_time))
                             
-                            start2 = time.time()
-                            ki.sendText("u3b07c57b6239e5216aa4c7a02687c86d", '.')
-                            elapsed_time = time.time() - start2
-                            ki.sendText(msg.to, "%s" % (elapsed_time))
+                            #start2 = time.time()
+                            #ki.sendText("u3b07c57b6239e5216aa4c7a02687c86d", '.')
+                            #elapsed_time = time.time() - start2
+                            #ki.sendText(msg.to, "%s" % (elapsed_time))
                                 
-                            start3 = time.time()
-                            kk.sendText("u3b07c57b6239e5216aa4c7a02687c86d", '.')
-                            elapsed_time = time.time() - start3
-                            kk.sendText(msg.to, "%s" % (elapsed_time))
+                            #start3 = time.time()
+                            #kk.sendText("u3b07c57b6239e5216aa4c7a02687c86d", '.')
+                            #elapsed_time = time.time() - start3
+                            #kk.sendText(msg.to, "%s" % (elapsed_time))
                                 
-                            start4 = time.time()
-                            kc.sendMessage("u3b07c57b6239e5216aa4c7a02687c86d", '.')
-                            elapsed_time = time.time() - start4
-                            kc.sendText(msg.to, "%s" % (elapsed_time))
+                            #start4 = time.time()
+                            #kc.sendMessage("u3b07c57b6239e5216aa4c7a02687c86d", '.')
+                            #elapsed_time = time.time() - start4
+                            #kc.sendText(msg.to, "%s" % (elapsed_time))
                                 
-                            start5 = time.time()
-                            ks.sendText("u3b07c57b6239e5216aa4c7a02687c86d", '.')
-                            elapsed_time = time.time() - start5
-                            ks.sendText(msg.to, "%s" % (elapsed_time))
+                            #start5 = time.time()
+                            #ks.sendText("u3b07c57b6239e5216aa4c7a02687c86d", '.')
+                            #elapsed_time = time.time() - start5
+                            #ks.sendText(msg.to, "%s" % (elapsed_time))
                             
-                        elif text.lower() == ".tagall":
+                        elif text.lower() == "sepi":
+                            if msg._from in RASelf:
                             group = cl.getGroup(msg.to)
                             nama = [contact.mid for contact in group.members]
                             k = len(nama)//100
