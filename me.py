@@ -15,23 +15,23 @@ import time, random, multiprocessing, sys, json, codecs, threading, glob, re, st
 #line.log("Auth Token : " + str(line.authToken))
 #line.log("Timeline Token : " + str(line.tl.channelAccessToken))
 
-line = LINE("Token disini")
+line = LINE("EsVmaR5xFRTjlNIYHDs8.NyA+PG8TJV88Pn6FcTZmsa.vML5tn7pO+jOrRGAA/4x0LJMzoAiY4IwInwjQAEgJTE=")
 line.log("Auth Token : " + str(line.authToken))
 line.log("Timeline Token : " + str(line.tl.channelAccessToken))
 
-ki = LINE("Token disini")
+ki = LINE("Es1Vyov8lHYdHf1Xfiy6.KmPykel90yCItZ1HUpdRPG.IgIKknIhG5ZJOJDTglQUim+WF3s2vjFwK3JUCa5EysE=")
 ki.log("Auth Token : " + str(ki.authToken))
 ki.log("Timeline Token : " + str(ki.tl.channelAccessToken))
 
-kk = LINE("Token disini")
+kk = LINE("EseaVsTx8fu6P5ggUBve.cfU11NWrEakjPSDwvX5qpG.QoH871kD9F4YIoXEoMdgHQfeRTHF1Xhy5SdOVaRLm3c=")
 kk.log("Auth Token : " + str(kk.authToken))
 kk.log("Timeline Token : " + str(kk.tl.channelAccessToken))
 
-kc = LINE("Token disini")
+kc = LINE("EsWr8NnsyXkQzOYxYUZa.IYbKi80JSiOSiZ8cwc/CIG.rRcDNyZjK4+e5YlXNiDkg8EdGf/mPNlHBAtVr3zDh5c=")
 kc.log("Auth Token : " + str(kc.authToken))
 kc.log("Timeline Token : " + str(kc.tl.channelAccessToken))
 
-ks = LINE("Token disini")
+ks = LINE("Eswi19cLQcdzAcmlt8Q5.MRaGSrBZwVVBm5JYV/jhXq.4Eut9NaizxCuIvMmthovpj/jlR7s8gVUw2/efwby5z4=")
 ks.log("Auth Token : " + str(ks.authToken))
 ks.log("Timeline Token : " + str(ks.tl.channelAccessToken))
 
@@ -44,7 +44,7 @@ Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 Dmid = ks.getProfile().mid
 RABots = [mid,Amid,Bmid,Cmid,Dmid]
-RASuper = ["Mid Kamu"]
+RASuper = ["u67acbba40f5d7983bd60c200e92456e9"]
 RAFamily = RASuper + RABots
 Setbot = codecs.open("setting.json","r","utf-8")
 Setmain = json.load(Setbot)
